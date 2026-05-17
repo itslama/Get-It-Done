@@ -1,0 +1,74 @@
+body{
+       background-image: url('GID background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Covered By Your Grace';
+    text-align:center;
+    color:rgb(255, 0, 140);
+    margin-top:100px;
+}
+
+h1{
+    font-size:50px;
+}
+
+h2{
+    font-size:40px;
+}
+.taskBox{
+    background: #FFC5D3;
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    margin: 0 auto 20px auto;
+}
+button{
+    padding:10px 20px;
+    margin:10px;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+input{
+    padding:10px;
+    width:220px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:rgb(255, 255, 255);
+    color:black;
+    width:300px;
+    margin:10px auto;
+    padding:10px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+}
+button{
+    padding:10px 20px;
+    margin:10px;
+    font-size:20px;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background-color:rgb(255, 0, 140);
+     font-family: inherit;
+}
+.done{
+    text-decoration: line-through;
+    color:rgb(255, 0, 140);
+    opacity:0.7;
+}

@@ -1,0 +1,49 @@
+<!-- Get It Done-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Get It Done</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Start Page -->
+    <div id="startPage">
+        <h1>Get It Done</h1>
+        <button onclick="startApp()">START</button>
+    </div>
+
+
+  
+    <!-- To Do Page -->
+<div id="todoPage" style="display:none;">
+    <h2>TO DO LIST</h2>
+
+    <div class="taskBox">
+        <input type="text" id="taskInput" placeholder="Write your task">
+        <button onclick="addTask()">+</button>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <button onclick="finishDay()">FINISH DAY</button>
+</div>
+
+
+    <!-- Result Page -->
+    <div id="resultPage" style="display:none;">
+        <h1 id="resultText"></h1>
+
+        <button onclick="goBackToList()">GO BACK TO LIST</button>
+        <button onclick="restart()">RESTART</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
